@@ -12,7 +12,7 @@ module.exports = function (app) {
       // update the flask Google Cloud url
 
       //target: "your_flask_gcloud_url",
-      target: "http://127.0.0.1:5000",
+      target: "https://spm-assignment5-flask-ag7sgfan6a-uc.a.run.app",
       changeOrigin: true,
     })
   );
