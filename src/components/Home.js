@@ -322,6 +322,32 @@ export default function Home() {
                   loading={"lazy"}
                 />
               </div>
+              <div>
+                <Typography component="h4">
+                  Prophet Created Issues
+                </Typography>
+                {/* Render the all issues data image for created issues*/}
+                <img
+                  src={
+                    githubRepoData?.createdAtImageUrls?.prophet_generated_image_url
+                  }
+                  alt={"Prophet Created Issues"}
+                  loading={"lazy"}
+                />
+              </div>
+              <div>
+                <Typography component="h4">
+                  Prophet Created Issues
+                </Typography>
+                {/* Render the all issues data image for created issues*/}
+                <img
+                  src={
+                    githubRepoData?.createdAtImageUrls?.prophet_generated_image_url2
+                  }
+                  alt={"Prophet2 Created Issues"}
+                  loading={"lazy"}
+                />
+              </div>
             </div>
             {/* Rendering Timeseries Forecasting of Closed Issues using Tensorflow and
                 Keras LSTM  */}
@@ -366,6 +392,28 @@ export default function Home() {
                 <img
                   src={githubRepoData?.closedAtImageUrls?.all_issues_data_image}
                   alt={"All Issues Data for Closed Issues"}
+                  loading={"lazy"}
+                />
+              </div>
+              <div>
+                <Typography component="h4">
+                  Prophet
+                </Typography>
+                {/**/}
+                <img
+                  src={githubRepoData?.closedAtImageUrls?.prophet_generated_image_url}
+                  alt={"Prophet1"}
+                  loading={"lazy"}
+                />
+              </div>
+              <div>
+                <Typography component="h4">
+                  Prophet
+                </Typography>
+                {/**/}
+                <img
+                  src={githubRepoData?.closedAtImageUrls?.prophet_generated_image_url2}
+                  alt={"Prophet2"}
                   loading={"lazy"}
                 />
               </div>
