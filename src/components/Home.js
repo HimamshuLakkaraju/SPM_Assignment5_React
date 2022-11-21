@@ -289,9 +289,9 @@ export default function Home() {
                   Model Loss for Created Issues
                 </Typography>
                 {/* Render the model loss image for created issues */}
-                {console.log("../LSTM-forecast/static/images"+githubRepoData?.createdAtImageUrls?.model_loss_image_url)}
+                
                 <img
-                  src={"../LSTM-forecast/static/images"+githubRepoData?.createdAtImageUrls?.model_loss_image_url}
+                  src={githubRepoData?.createdAtImageUrls?.model_loss_image_url}
                   alt={"Model Loss for Created Issues"}
                   loading={"lazy"}
                 />
